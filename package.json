@@ -1,11 +1,11 @@
 {
-  "name": "@filestack/angular",
-  "version": "1.4.0",
+  "name": "filestack-angular",
+  "version": "1.4.1",
   "description": "Angular module for filestack-js",
   "scripts": {
-    "ng": "ng",
+    "ng": "npx ng",
     "start": "ng serve",
-    "build": "ng build filestack-angular --prod",
+    "build": "npx ng build filestack-angular --prod",
     "test": "ng test filestack-angular --watch=false",
     "test:watch": "ng test filestack-angular",
     "lint": "ng lint",
