@@ -11,8 +11,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "release": "ng test filestack-angular --watch=false && ng build filestack-angular --configuration production && standard-version",
-    "publishS3": "npx webpack",
-    "publish": "cd dist/filestack-angular/ && npm publish && cd ../../ && npm run publishS3"
+    "publish": "cd dist/filestack-angular/ && npm publish"
   },
   "dependencies": {
     "@angular/animations": "^16.2.1",
